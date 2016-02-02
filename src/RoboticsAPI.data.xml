@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<RoboticsAPIData version="3">
+    <world>
+        <gravitation x="0.0" y="0.0" z="9.81"/>
+        <frame name="F_air">
+            <transformation a="3.1" b="0.0" c="3.1" x="600.0" y="100.0" z="200.0"/>
+            <additionalInformation>
+                <info key="LastModificationTime" type="java.lang.Long" value="1421934176317"/>
+            </additionalInformation>
+            <redundancyData>
+                <redundancy transformationProviderName="legacy" type="com.kuka.roboticsAPI.deviceModel.LBRE1Redundancy"/>
+            </redundancyData>
+        </frame>
+        <frame name="P1">
+            <transformation a="0.0" b="0.0" c="0.0" x="0.0" y="0.0" z="0.0"/>
+            <additionalInformation>
+                <info key="LastModificationTime" type="java.lang.Long" value="1423506677618"/>
+            </additionalInformation>
+        </frame>
+    </world>
+    <objectTemplates>
+        <toolTemplate class="" defaultMotionFrameRef="/ToolTip" name="ScraperMediumA">
+            <frames>
+                <frame name="ToolTip">
+                    <transformation a="1.0" b="0.0" c="0.0" x="0.0" y="0.0" z="91.0"/>
+                </frame>
+            </frames>
+            <loadData cogA="0.0" cogB="0.0" cogC="0.0" cogX="0.0" cogY="0.0" cogZ="0.0" inertiaX="0.0" inertiaY="0.0" inertiaZ="0.0" mass="0.3"/>
+        </toolTemplate>
+        <geometricObjectTemplate class="" name="GeometricObjectTemplate"/>
+        <toolTemplate class="" defaultMotionFrameRef="/ToolTip" name="ScraperMediumB">
+            <frames>
+                <frame name="ToolTip">
+                    <transformation a="1.0" b="0.0" c="0.0" x="0.0" y="0.0" z="63.0"/>
+                </frame>
+            </frames>
+            <loadData cogA="0.0" cogB="0.0" cogC="0.0" cogX="9.307464184861793" cogY="9.281929576036841" cogZ="-86.95603972096552" inertiaX="0.0" inertiaY="0.0" inertiaZ="0.0" mass="0.4858264189415955"/>
+        </toolTemplate>
+        <toolTemplate class="" defaultMotionFrameRef="/ToolTip" name="ScraperSmallE">
+            <frames>
+                <frame name="ToolTip">
+                    <transformation a="0.0" b="0.0" c="0.0" x="2.0" y="0.0" z="65.0"/>
+                </frame>
+            </frames>
+            <loadData cogA="0.0" cogB="0.0" cogC="0.0" cogX="7.336703333419495" cogY="6.724917700997204" cogZ="-79.21678244978953" inertiaX="0.0" inertiaY="0.0" inertiaZ="0.0" mass="0.415576827253847"/>
+        </toolTemplate>
+        <toolTemplate class="" defaultMotionFrameRef="/ToolTip" name="ScraperSmallB">
+            <frames>
+                <frame name="ToolTip">
+                    <transformation a="0.0" b="0.0" c="0.0" x="4.0" y="0.0" z="66.0"/>
+                </frame>
+            </frames>
+            <loadData cogA="0.0" cogB="0.0" cogC="0.0" cogX="0.0" cogY="0.0" cogZ="0.0" inertiaX="0.0" inertiaY="0.0" inertiaZ="0.0" mass="0.0"/>
+        </toolTemplate>
+        <toolTemplate class="" defaultMotionFrameRef="/ToolTip" name="ScraperSmallC">
+            <frames>
+                <frame name="ToolTip">
+                    <transformation a="0.0" b="0.0" c="0.0" x="6.0" y="0.0" z="70.0"/>
+                </frame>
+            </frames>
+            <loadData cogA="0.0" cogB="0.0" cogC="0.0" cogX="0.0" cogY="0.0" cogZ="0.0" inertiaX="0.0" inertiaY="0.0" inertiaZ="0.0" mass="0.0"/>
+        </toolTemplate>
+        <toolTemplate class="" defaultMotionFrameRef="/ToolTip" name="ScraperLargeA">
+            <frames>
+                <frame name="ToolTip">
+                    <transformation a="0.0" b="0.0" c="0.0" x="4.0" y="0.0" z="88.0"/>
+                </frame>
+            </frames>
+            <loadData cogA="0.0" cogB="0.0" cogC="0.0" cogX="70.79687175116389" cogY="71.90171233450613" cogZ="-48.57470222317246" inertiaX="0.0" inertiaY="0.0" inertiaZ="0.0" mass="0.2449864183047856"/>
+        </toolTemplate>
+        <toolTemplate class="" defaultMotionFrameRef="/ToolTip" name="MiniA">
+            <frames>
+                <frame name="ToolTip">
+                    <transformation a="1.57" b="0.0" c="0.0" x="0.0" y="0.0" z="88.0"/>
+                </frame>
+            </frames>
+            <loadData cogA="0.0" cogB="0.0" cogC="0.0" cogX="0.0" cogY="0.0" cogZ="0.0" inertiaX="0.0" inertiaY="0.0" inertiaZ="0.0" mass="0.0"/>
+        </toolTemplate>
+        <toolTemplate class="" defaultMotionFrameRef="/ToolTip" name="MiniE">
+            <frames>
+                <frame name="ToolTip">
+                    <transformation a="0.0" b="0.0" c="0.0" x="0.0" y="0.0" z="90.0"/>
+                </frame>
+            </frames>
+            <loadData cogA="0.0" cogB="0.0" cogC="0.0" cogX="0.0" cogY="0.0" cogZ="0.0" inertiaX="0.0" inertiaY="0.0" inertiaZ="0.0" mass="0.0"/>
+        </toolTemplate>
+    </objectTemplates>
+</RoboticsAPIData>
